@@ -1,22 +1,23 @@
 {
-  "name": "homebridge-people",
-  "version": "0.4.0",
-  "description": "Homebridge plugin that provides details of who is in a Home",
+  "name": "homebridge-people-geofence",
+  "version": "1.0.0",
+  "description": "Homebridge plugin that provides details of who is at Home - forked and inspired by homebridge-people plugin by PeteLawrence",
   "keywords": [
-    "homebridge-plugin"
+    "homebridge-plugin",
+    "geofence",
+    "iBeacon",
+    "location"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/PeteLawrence/homebridge-people.git"
+    "url": "https://github.com/nitaybz/homebridge-people-geofence.git"
   },
   "engines": {
     "node": ">=0.12.0",
     "homebridge": ">=0.2.0"
   },
   "dependencies": {
-    "moment": "^2.11.2",
     "node-persist": "0.0.8",
-    "ping": "^0.1.10",
     "request": "^2.79.0"
   }
 }
